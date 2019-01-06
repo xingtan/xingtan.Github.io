@@ -118,7 +118,8 @@ footer {
 }
 
 .container {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    margin: 2%;
     max-width: 100%;
     padding: 0 16px;
     padding-bottom: 10px;
