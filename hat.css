@@ -39,6 +39,7 @@ article{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px;
     display: flex;
 }
+
 .header__group {
     -webkit-box-align: center;
     align-items: center;
@@ -53,6 +54,12 @@ a {
     color: rgb(26, 115, 232);
     text-decoration: none;
     background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-style: none;
 }
 
 .header__nav {
