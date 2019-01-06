@@ -1,4 +1,4 @@
-article, aside, figure, figcaption, footer, hgroup, nav, section, summary {  
+article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary {  
   display: block;  
 }
  
@@ -7,28 +7,34 @@ body {
   max-width: 700px;
 }
  
-nav {
+header {
   background-color: #2D9900;
   border: thin #336699 solid;
-  padding: 10%;
-  margin: 10%;
+  padding: 10px;
+  margin: 10px;
   text-align: center;
 }
-
-nav a {
+ 
+header h1 {
   margin: 0px;
   color: white;
   font-size: xx-large;
 }
-
-.navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
+ 
+header h2 {
+  margin: 0px;
+  font-weight: bold;
+}
+ 
+header .Teaser {
+  font-size: large;
+  font-weight: bold;
+}
+ 
+header .Byline {
+  font-style: italic;
+  font-size: small;
+  margin: 0px;
 }
  
 .Content {
