@@ -15,6 +15,12 @@ nav {
   text-align: center;
 }
 
+nav a {
+  margin: 0px;
+  color: white;
+  font-size: xx-large;
+}
+
 .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
